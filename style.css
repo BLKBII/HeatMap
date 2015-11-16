@@ -1,0 +1,196 @@
+rect.bordered {
+        stroke: #E6E6E6;
+        stroke-width:2px; 
+   
+      }
+
+      text.mono {
+        font-size: 9pt;
+           font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+      }
+      
+       text.legendText {
+        font-size: 9pt;
+           font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+      }
+
+     
+
+
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+a, img {
+    border:none;
+}
+  
+  #intro{
+      font-size: 12px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+  }
+  
+  #BIIDisc {
+     font-size: 11px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+  }
+  
+  #Source {
+         font-size: 11.5px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+    
+  }
+  
+  #BSRILink {
+    font-size: 12px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+  }
+  
+  #yAxisButtons {
+      font-size: 12.5px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+  }
+  
+  #yAxisButtons .ybutton {
+	margin-right: 2px;
+	float: left;
+	width: 120px;
+	cursor: pointer;
+	padding: 5px 5px 2px 5px;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 3px;	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
+	
+  }
+  #yAxisButtons .ybutton.selected{
+	background-color: #35819b;
+	color: #ffffff;
+}
+  #xAxisButtons {
+      font-size: 12.5px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+  }
+  
+  .catLabel {
+  
+  	padding: 5px 5px 2px 5px;
+  }
+  
+  #xAxisButtons .xbutton {
+	margin-right: 2px;
+	float: left;
+	width: auto;
+	cursor: pointer;
+	padding: 5px 5px 2px 5px;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 3px;	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
+	
+  }
+  #xAxisButtons .xbutton.selected{
+	background-color: rgb(248,151,29);
+	color: #ffffff;
+  }
+  #highlightButtons .hbutton {
+	margin-right: 2px;
+	float: left;
+	width: auto;
+	cursor: pointer;
+	padding: 5px 5px 2px 5px;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-bottom: 3px;	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.5);
+	
+  }
+  
+ 
+    .labelbox { fill:white;opacity:1}
+    .labeltext { fill:grey;text-anchor:middle;font-size:12.5px;font-family:  Helvetica, Arial, Sans-Serif}
+    .link { stroke:gray;stroke-width:0.35}
+  
+  #highlightButtons {
+      font-size: 12.5px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      color: rgb(80, 80, 80);
+  }
+  #highlightButtons .hbutton.selected{
+	background-color: rgb(0,154,61);
+	color: #ffffff;  
+  }
+  
+    .x path,
+    .x line {
+      fill: none;
+      stroke: rgb(80, 80, 80);
+      shape-rendering: crispEdges;
+    }
+    
+    .y path,
+    .y line {
+      fill: none;
+      stroke: rgb(80, 80, 80);
+      shape-rendering: crispEdges;
+    }
+    .y text {
+      font-family: sans-serif;
+      font-size: 12px;
+      fill: rgb(80, 80, 80);
+    }
+     .x text {
+      font-family: sans-serif;
+      font-size: 12px;
+      fill: rgb(80, 80, 80);
+    }
+    a,
+    img {
+      border: none;
+    }
+   h1 {
+      font-family: "AdelleSansWeb", Helvetica, Arial, "MS Trebuchet", sans-serif;
+      margin: 0px;
+      padding: 0px;
+    }
+    h1 {
+      font-size: 21px;
+      line-height: 42px;
+      color: rgb(80, 80, 80);
+    }
+   .labelText {
+      font-family: sans-serif;
+      font-size: 12px;
+      fill: rgb(80, 80, 80);
+    }
