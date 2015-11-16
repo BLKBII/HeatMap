@@ -1,8 +1,8 @@
 
 var data; // a global
 
-d3.json("https://s3.amazonaws.com/blackrockblog-blanktemplate-assets/data/GrowthData.js", function(json) {
-//d3.json("datafile.json", function(json) {
+//d3.json("https://s3.amazonaws.com/blackrockblog-blanktemplate-assets/data/GrowthData.js", function(json) {
+d3.json("datafile.json", function(json) {
   
  var  data = json;
  
